@@ -18,8 +18,8 @@ export default class NecessaryList extends React.Component {
     return (
       <View style={styles.container}>
         <View style={{alignItems: 'center' ,justifyContent: 'center', width: '100%'}}>
-          <Text style={{textAlign: 'center'}}>아는만큼다르게보이는 지식체험 아만다</Text>
-          <Image source={require('../images/AMANDA_EN.png')} style={{resizeMode: 'stretch', width: '20%', height: 30}}/>
+          <Text style={{textAlign: 'center'}}>테스트</Text>
+          <Image source={require('../images/EN.png')} style={{resizeMode: 'stretch', width: '20%', height: 30}}/>
         </View>
         <View style={styles.content}>
         { CardViewForm }

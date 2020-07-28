@@ -25,7 +25,7 @@ export default class Chatting extends React.Component {
     return (
       <View style={styles.container}>
         <View style={{flex: 1, backgroundColor: 'white', paddingTop: 20, alignItems: 'center' ,justifyContent: 'space-between', flexDirection: 'row'}}>
-          <Image source={require('../images/AMANDA_EN.png')} style={{resizeMode: 'stretch', width: 90, height: 40, marginLeft: 20}}/>
+          <Image source={require('../images/EN.png')} style={{resizeMode: 'stretch', width: 90, height: 40, marginLeft: 20}}/>
           <TouchableOpacity onPress={() => this.button()}>
             <Image source={require('../images/folder.png')} style={{resizeMode: 'stretch', width: 25, height: 25, marginRight: 20}}/>
           </TouchableOpacity>

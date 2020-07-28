@@ -108,7 +108,7 @@ export default class Search extends React.Component {
               <Text style={{textAlign: 'center'}}>아는만큼  </Text> 
             </View>
             <View style={{alignItems: 'center' ,justifyContent: 'center', width: '20%', height: 70}}>
-              <Image source={require('../images/AMANDA_LOGO3.png')} style={{resizeMode: 'stretch', width: '100%', height: 70}}/> 
+              <Image source={require('../images/LOGO3.png')} style={{resizeMode: 'stretch', width: '100%', height: 70}}/> 
             </View>
             <View style={{alignItems: 'center' ,justifyContent: 'center'}}>
               <Text style={{textAlign: 'center'}}>  다르게보이는</Text>

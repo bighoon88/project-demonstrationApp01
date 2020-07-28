@@ -38,8 +38,8 @@ export default class SearchList extends React.Component {
     return (
       <View style={styles.container}>
         <View style={{alignItems: 'center' ,justifyContent: 'center', width: '100%'}}>
-          <Text style={{textAlign: 'center'}}>아는만큼다르게보이는 지식체험 아만다</Text>
-          <Image source={require('../images/AMANDA_EN.png')} style={{resizeMode: 'stretch', width: '20%', height: 30}}/>
+          <Text style={{textAlign: 'center'}}>테스트 어플</Text>
+          <Image source={require('../images/EN.png')} style={{resizeMode: 'stretch', width: '20%', height: 30}}/>
         </View>
         <View style={{backgroundColor:'#ffbe04', borderColor: '#ffbe04', borderWidth: 0, width: '100%', height: 65, alignItems: 'center', borderBottomWidth: 1, borderTopWidth: 1}}>
           <Text style={{fontSize: 20, textAlign: 'center', paddingTop: 5}}>{targetDate}</Text>

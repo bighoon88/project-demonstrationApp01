@@ -131,7 +131,7 @@ export default class Pay extends React.Component {
                             <Text style={{fontSize: 16, fontWeight: 'bold'}}>학부모 정보</Text>
                             <View style={{paddingTop: 20, flexDirection: 'row', alignItems: 'center',}}>
                                 <CheckBox value={this.state.boxValue} onChange={(email, displayName) =>this.checkBox(this.props.screenProps.email, this.props.screenProps.displayName)}/>
-                                <Text> 아만다 사용자와 동일한 정보</Text>
+                                <Text> 사용자와 동일한 정보</Text>
                             </View>
                             <View style={{paddingTop: 15}}>
                                 <Text>이름(실명)</Text>

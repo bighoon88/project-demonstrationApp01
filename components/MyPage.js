@@ -23,7 +23,7 @@ export default class MyPage extends React.Component {
         {key: '3', title: '포토북', image: require('../images/gallery.png')},
         {key: '4', title: '지식게임', image: require('../images/owl.png')},
         {key: '5', title: '결제문의', image: require('../images/debit-card.png')},
-        {key: '6', title: '아만다\n사용법', image: require('../images/icons8-faq-80.png')}
+        {key: '6', title: '사용법', image: require('../images/icons8-faq-80.png')}
       ],
       columns: 4
     }
@@ -161,7 +161,7 @@ export default class MyPage extends React.Component {
           <View style={{width: '100%', height: 40, justifyContent: 'center'}}>
             <View style={{flexDirection: 'row', justifyContent: 'space-between'}}>
               <View style={{paddingLeft: 20}}>
-                <Text style={{fontSize: 15}}>아만다 포인트</Text>
+                <Text style={{fontSize: 15}}>포인트</Text>
               </View>
               <View style={{flexDirection: 'row'}}>
                 <View style={{paddingRight: 5}}>

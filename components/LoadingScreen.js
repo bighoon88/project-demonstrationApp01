@@ -51,7 +51,7 @@ export default class LoadingScreen extends React.Component {
     render() {
         return (
             <View style={styles.container}>
-                <Image source={require('../images/AMANDA_LOGO.png')} style={{resizeMode: 'stretch', width: '40%', height: '14%'}}/>
+                <Image source={require('../images/LOGO.png')} style={{resizeMode: 'stretch', width: '40%', height: '14%'}}/>
                 <ActivityIndicator size = 'large' />
             </View>
         );
