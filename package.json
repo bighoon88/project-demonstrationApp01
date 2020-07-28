@@ -1,0 +1,21 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "expo": "^38.0.0",
+    "firebase": "7.9.0",
+    "react": "16.11.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz",
+    "react-native-modal-datetime-picker": "^6.0.0",
+    "react-navigation": "^3.3.2"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^8.2.3"
+  },
+  "private": true
+}
